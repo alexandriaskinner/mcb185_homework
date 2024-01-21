@@ -1,5 +1,5 @@
 echo "User: $USER 
 Home: $HOME 
 Shell: $SHELL 
-Working Directory: $PWD 
+pwd: $PWD 
 Path: $PATH" 

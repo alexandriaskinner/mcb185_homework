@@ -1,0 +1,1 @@
+gunzip -c dictionary.gz | grep "^[onziarc]*r[onziarc]*$" | grep -v ".{1,3}"

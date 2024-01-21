@@ -1,0 +1,14 @@
+Sat Jan 20 13:26:57 PST 2024
+User: alexandriaskinner 
+Home: /Users/alexandriaskinner 
+Shell: /bin/zsh 
+Working Directory: /Users/alexandriaskinner/Code/mcb185_homework 
+Path: /usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+Darwin Alexandrias-MacBook-Air-3.local 23.0.0 Darwin Kernel Version 23.0.0: Fri Sep 15 14:41:34 PDT 2023; root:xnu-10002.1.13~1/RELEASE_ARM64_T8103 arm64
+Python 3.9.6
+/Users/alexandriaskinner/Code
+/Users/alexandriaskinner/Code/mcb185_homework
+/Users/alexandriaskinner/Code/mcb185_homework/.git
+/Users/alexandriaskinner/Code/MCB185
+/Users/alexandriaskinner/Code/MCB185/.git
+/Users/alexandriaskinner/Code/MCB185/data
