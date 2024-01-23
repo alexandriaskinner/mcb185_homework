@@ -10,4 +10,4 @@ gunzip -c dictionary | grep -E "^[maocdin]*c[maocdin]*" | grep -E "...." | wc
 
 gunzip -c dictionary | grep -E "^[anozigr]*z[anozigr]*" | grep -E "...." | wc
 
-gunzip -c jaspar2024_core.transfac.gz | grep -E "tax_group"| sort -n | uniq -c
+gunzip -c ~/Code/MCB185/data/jaspar2024_core.transfac.gz | grep -E "tax_group"| sort -n | uniq -c
