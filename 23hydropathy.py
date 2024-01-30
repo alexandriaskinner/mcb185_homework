@@ -21,7 +21,7 @@ def hydropathy(aa):
 	elif aa == 'V': return  4.20
 	elif aa == 'W': return -0.90
 	elif aa == 'Y': return -1.30
-	else:			sys.exit('error: not an amino acid')
+	else:			return 'error: not an amino acid'
 
 print(hydropathy('A'))
 print(hydropathy('K'))
