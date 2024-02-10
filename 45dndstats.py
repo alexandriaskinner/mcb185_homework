@@ -53,19 +53,3 @@ for i in range(trials):
 	total += 1
 	ave4d6d1 = sum_stat / total
 print(f'4D6d1:\t{ave4d6d1}')
-
-"""
-#3D6x2:
-stat = 0       #Doesn't Work Right -- gets about 9
-for i in range(trials):
-	for j in range(1,3):
-		d1 = random.randint(1,6)
-		d2 = random.randint(1,6)
-		if d1 > d2: roll = d1
-		else:       roll = d2
-	sum_stat += roll
-	total += 1
-	ave3d6x2 = sum_stat / total
-print(f'3D6x2:\t{ave3d6x2}')
-"""
-

@@ -26,11 +26,3 @@ print(f'Difficulty Class:\t5\t10\t15')
 print('no advantage:\t', prob_save('none', 5), prob_save('none', 10), prob_save('none', 15), sep='\t')
 print('with advantage:\t', prob_save('adv', 5), prob_save('adv', 10), prob_save('adv', 15), sep='\t')
 print('with disadvantage:', prob_save('dis', 5), prob_save('dis', 10), prob_save('dis', 15), sep='\t')
-
-"""
-Results:
-DC:  none:    adv:     dis:
-5    0.7999   0.9582   0.636
-10   0.5544   0.7982   0.302
-15   0.2945   0.5068   0.0947
-"""
