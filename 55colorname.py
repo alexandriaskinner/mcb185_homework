@@ -1,11 +1,5 @@
 #Authors: Alexandria Skinner
-"""
-split with tabs to get RGB
-then split with , to get R or G or B
-Compare color to file
-kinda like finding the minimum value/difference 
-between color and colornames file
-"""
+
 import sys
 
 colorfile = sys.argv[1]

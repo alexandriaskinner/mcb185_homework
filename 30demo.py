@@ -153,5 +153,4 @@ for i in range(1, limit):
 		
 for i in range(1,limit):  #full matrix - major diagonal
 	for j in range(1, limit):
-		if i != j:
-			print(i, j, 'c')
+		if i != j: print(i, j, 'c')

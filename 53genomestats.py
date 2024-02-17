@@ -40,4 +40,5 @@ if len(val) % 2 == 0:
 else:
 	median = val[len(val) // 2]
 
-print(f'N: {count}, min: {min}, max: {max}, mean: {mean:.0f}, stdev: {stdev:.0f}, med: {median:.0f}')
+print(f'N: {count}, min: {min}, max: {max},', end='')
+print(f'mean: {mean:.0f}, stdev: {stdev:.0f}, med: {median:.0f}')

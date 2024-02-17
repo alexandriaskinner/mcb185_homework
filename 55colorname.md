@@ -1,6 +1,6 @@
-#Authors: Alexandria Skinner
+Authors: Alexandria Skinner
 
-##Basic Colors File##
+## Basic Colors File ##
 | R   | G   | B   | Basic | Extended    |
 |:----|:----|:----|:------|:------------|
 | 200 | 0   | 50  | red   | crimson     |

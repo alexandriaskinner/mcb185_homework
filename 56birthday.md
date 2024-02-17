@@ -1,6 +1,6 @@
-#Authors: Alexandria Skinner
+Authors: Alexandria Skinner
 
-##Probability of Shared Birthday for 365 days##
+## Probability of Shared Birthday for 365 days ##
 | People | Prob   |
 |:-------|:-------|
 | 23     | 0.503  |

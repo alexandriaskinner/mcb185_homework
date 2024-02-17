@@ -1,4 +1,5 @@
-#Authors: Alexandria Skinner
+Author: Alexandria Skinner
+## Genome Statistics: ##
 
 | Genome         | Type | N    | Min | Max   | Mean | Stdv | Med  |
 |:---------------|:-----|:-----|:----|:------|:-----|:-----|:-----|

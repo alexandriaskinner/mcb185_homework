@@ -12,7 +12,7 @@ Participation
 + (CA) Co-author with new student: +1 point per program
 + (OA) Other activity: variable points, explain in notes
 
-## Log ##
+## Log - Alexandria Skinner ##
 
 | U | AC | VP | AQ | OC | SH | SA | CA | OA | Tot | Notes
 |:-:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:---:|:--------
