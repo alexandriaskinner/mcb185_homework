@@ -23,3 +23,23 @@ for defline, seq in mcb185.read_fasta(sys.argv[1]):
 	for nt in nts:
 		print(seq.count(nt) / len(seq), end='\t')
 	print()
+
+#Sliding Windows Algorithms
+w = 10
+s = 1
+for i in range(0, len(seq) -w +1, s):
+	subseq = seq[i:i+w]
+
+#In Class Notes:
+"""
+str.split()
+str.join()    variable before funtion -- object syntax
+str.count()
+
+len()         variable after function
+print()
+
+math.log2() is not object syntax
+
+s = 'GATC' is string
+l = [G, A, T] is a list
