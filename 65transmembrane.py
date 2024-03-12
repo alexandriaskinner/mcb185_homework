@@ -24,9 +24,7 @@ def hydrophobic(seq, w, kdval):
 			break
 
 for defline, seq in mcb185.read_fasta(file):
-	protein = 0
-	if hydrophobic(seq[0:30], 8, 2.5) == True: #Signal Peptide
-		protein += 1
-	if hydrophobic(seq[31:], 11, 2) == True:   #Transmembrane Region
-		protein += 1
-	if protein == 2: print(defline[0:60])
+	signal = hydrophobic(seq[0:30], 8, 2.5)
+	transmembrane = hydrophobic(seq[31:], 11, 2)
+	if signal == True and transmembrane = True:
+		print(defline[0:60])

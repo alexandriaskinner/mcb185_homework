@@ -85,3 +85,11 @@ def hydropathy(aa):
 	elif aa == 'Y': return -1.30
 	else:			return 'error: not an amino acid'
 
+def oligotemp(seq):
+	nts = {'AT': 0, 'GC': 0}
+	for nt in seq:
+		if nt == 'A' or nt == 'T': nts['AT'] += 1
+		if nt == 'G' or nt == 'C': nts['GC'] += 1
+	if len(seq) <= 13: tm = nts['AT']*2 + nts['GC']*4
+	if len(seq) >  13: tm = 64.9 + 41*(nts['GC'] - 16.4)/len(seq)
+	return tm
