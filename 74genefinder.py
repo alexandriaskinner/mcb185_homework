@@ -3,7 +3,7 @@
 import sys
 import mcb185
 
-minorf = 300
+minorf = sys.argv[2]
 
 def find_cds(seq, min, strand):
 	for frame in range(3):
