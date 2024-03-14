@@ -3,9 +3,6 @@
 import sys
 import mcb185
 
-#seq =   'ATGATGGATGCGAATTAAGTAAGTCTGGGTTACAT'
-#anti = 'ATG TAA CCC AGA CTT ACT TAA TTC GCA TCCATCAT'
-
 minorf = 300
 
 def find_cds(seq, min, strand):
