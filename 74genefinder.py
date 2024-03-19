@@ -21,7 +21,7 @@ def find_cds(seq, min, strand):
 						if strand == '-':
 							stop = len(seq) - i - frame
 							start  = len(seq) - j - 2 - frame
-						if abs(j + 3 - i) >= min:
+						if abs(j + 3 - i) >= int(min):
 							print(f'{id[0]}\tRefSeq\tgene\t{start}\t{stop}\t{strand}')
 						i = j
 						break

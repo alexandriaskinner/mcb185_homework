@@ -70,4 +70,4 @@ for c, beg, end, n, s in introns:
 		acc[i][nt] += n
 
 print_pwm(acc, 'int01', 'ACC', 'splice acceptor')
-print_pwm(acc, 'int02', 'DON', 'donor site')
+print_pwm(don, 'int02', 'DON', 'donor site')

@@ -22,17 +22,15 @@ with gzip.open(gffpath, 'rt') as fp:
 				if l > max: max = l
 				total += l
 				val.append(l)
-mean = total / count
-
-sumdev = 0
-with gzip.open(gffpath, 'rt') as fp:
+	mean = total / count
+	sumdev = 0
 	for line in fp:
 		if line[0] != '#':
 			word = line.split()
 			if word[2] == feature:
 				l = int(word[4]) - int(word[3]) +1
 				sumdev += (mean - l)**2
-stdev = (sumdev / count)**0.5
+	stdev = (sumdev / count)**0.5
 
 val.sort()
 if len(val) % 2 == 0:

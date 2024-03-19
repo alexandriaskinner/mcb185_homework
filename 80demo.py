@@ -98,7 +98,8 @@ truc = {
 
 print(json.dumps(truc, indent=4))
 """
-introns = {}
+"""
+introns = [] #or {}
 with gzip.open(sys.argv[1], 'rt') as fp:
 	for line in fp:
 		f = line.split()
@@ -108,7 +109,9 @@ with gzip.open(sys.argv[1], 'rt') as fp:
 		end = int(f[4]) - 1
 		strand = f[6]
 		n = int(f[5])
-		#print(chrom, beg, end, strand, n)
+		introns.append(chrom, beg, end, strand, n)
+"""		
+		"""
 		if chrom not in introns: introns[chrom] =[]
 		introns[chrom].append({
 			'beg': beg,
@@ -116,4 +119,63 @@ with gzip.open(sys.argv[1], 'rt') as fp:
 			'strand': strand,
 			'count': n
 		})
-print(json.dumps(introns, indent=4))
+		"""
+"""
+for defline, seq, in mcb185.read_fasta(sys.argv[2]):
+	words = defline.split()
+	chrom = word[0]
+	for c, b, e, s, n in introns:
+		if chrom == c and s =='+':
+			iseq = seq[b:e+1]
+			if s = '-': iseq = mcb185.anti_seq(iseq)
+			print(iseq[:6], iseq[-6:], s, n)
+			don = iseq[:5]
+			acc = iseq[-8:]
+		print(chrom, beg, )
+		
+		print(don)
+		for i, nt in enumerate(don):
+			dons[i][nt] += n #+n accounts for how often each splice site occurred
+		for i, nt in enumerate(acc):
+			accs[i][nt] += n
+"""
+#use info to count and make pos weight matrix
+#inefficient because going through whole list for each chr, 
+#dictionary would be more efficient but not a big difference
+"""
+#Make empty list of nt counts at each position in donor and acceptor sites
+dons = []
+accs = []
+dlen = 6
+aclen = 8
+
+for i in range(dlen):
+	dons.append({'A': 0, 'T': 0, 'G': 0, 'C': 0})
+for i in range (aclen):
+	accs.append({'A': 0, 'T': 0, 'G': 0, 'C': 0})
+	
+#Change to Transfac format
+def print_pwm(ma, id, de, po)
+	print('MA', 'at.aac.01')
+	print('XX')
+	print('ID', kkkk)
+	print('XX')
+	print('DE', 'yay')
+	print('PO')
+
+	for i, n in enumerate(accs):
+		a = n['A'] #create variables just for visuals, not necessary
+		print(f'{i+1:<8}{a:<8}{c:<8}... )
+
+
+print('XX')
+print('//')
+
+#Float doesn't work on scientific notation
+"""
+vi hello
+#!/bin/env python3
+
+"""
+For after the class ends:
+-rosalind.info
