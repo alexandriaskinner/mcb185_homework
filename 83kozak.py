@@ -17,7 +17,7 @@ with gzip.open(sys.argv[1], 'rt') as fp:
 		#Find coordinates of start sites
 		if 'FEATURES' in line: ft = True
 		if ft != True: continue
-		if 'CDS' in line and '/' not in line:
+		if 'CDS' in line:
 			word = line.split()
 			if len(word) < 2: continue
 			if 'join' in word[1]: continue
