@@ -26,5 +26,5 @@ def hydrophobic(seq, w, kdval):
 for defline, seq in mcb185.read_fasta(file):
 	signal = hydrophobic(seq[0:30], 8, 2.5)
 	transmembrane = hydrophobic(seq[31:], 11, 2)
-	if signal == True and transmembrane = True:
+	if signal == True and transmembrane == True:
 		print(defline[0:60])
